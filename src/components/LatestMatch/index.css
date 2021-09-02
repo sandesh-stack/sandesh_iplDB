@@ -1,0 +1,106 @@
+/* Write your CSS here */
+
+.latest-match-details {
+  background-color: #0f172a;
+  font-family: Bree Serif;
+  color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.left-container {
+  margin: 15px;
+  display: flex;
+}
+
+.right-container {
+  margin: 15px;
+  text-align: left;
+}
+
+.competing-team {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.venue {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.competing-team-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.hr-line {
+  border: 1px solid #475569;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+.value {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .latest-match-details {
+    background-color: #0f172a;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: Bree Serif;
+    color: #ffffff;
+  }
+
+  .hr-line {
+    border: none;
+  }
+
+  .left-container {
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right-container {
+    text-align: right;
+  }
+
+  .competing-team {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .date {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .venue {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .competing-team-img {
+    width: 180px;
+    height: 250px;
+    margin-left: 20px;
+  }
+
+  .value {
+    font-size: 13px;
+  }
+}

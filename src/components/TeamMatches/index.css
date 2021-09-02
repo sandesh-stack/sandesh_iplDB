@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.team-matches-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rcb-bg {
+  background-image: linear-gradient(#a4261d, #1e293b);
+}
+
+.kkr-bg {
+  background-image: linear-gradient(#5755a7, #1e293b);
+}
+
+.kxp-bg {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+}
+
+.csk-bg {
+  background-image: linear-gradient(#f7db00, #1e293b);
+}
+
+.rr-bg {
+  background-image: linear-gradient(#da237b, #1e293b);
+}
+
+.mi-bg {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+
+.srh-bg {
+  background-image: linear-gradient(#f26d22, #1e293b);
+}
+
+.dc-bg {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+}
+
+.team-fixtures {
+  width: 84%;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.matches {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.recent-matches {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  .team-matches-bg {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-fixtures {
+    width: 70%;
+    max-width: 920px;
+    margin: 15px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  .matches {
+    font-family: Bree Serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .recent-matches {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
